@@ -15,6 +15,7 @@
     color: black;
     flex-wrap: wrap;
     padding: 3rem 2rem;
+    border-top: 5px solid rgb(106, 38, 205);
 }
 
 .links {

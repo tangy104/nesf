@@ -8,6 +8,14 @@ export const sponsors = [
     image: "SBI LOGO.png",
   },
   {
+    name: "NRL",
+    image: "NRL LOGO.webp",
+  },
+  {
+    name: "Naga Ed",
+    image: "NagaEd LOGO.png",
+  },
+  {
     name: "Arunachal Tourism",
     image: "Arunachal Bamboo Logo.png",
   },
@@ -43,7 +51,7 @@ export const sponsors = [
     name: "PWC",
     image: "Poddar Car World.jpeg",
   },
-    // {
+  // {
   //   name: "Oil India Limited",
   //   image: "oil.png",
   // },
@@ -51,4 +59,4 @@ export const sponsors = [
   //   name: "ONGC",
   //   image: "ongc.png",
   // },
-]
+];
