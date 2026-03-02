@@ -209,51 +209,51 @@ const TeamData = {
     jem: [
       {
         name: "Sougrakpam Albert Singh",
-        image: "jem/Albert.jpeg",
+        image: "jem/Albert.jpg",
       },
       {
         name: "Akangsa Nunisa",
-        image: "jem/Akangsa.jpeg",
+        image: "jem/Akangsa.png",
       },
       {
         name: "Barli Ardao",
-        image: "jem/Barli.jpeg",
+        image: "jem/Barli Ardao.png",
       },
       {
         name: "Jash Jain",
-        image: "jem/Jash.jpeg",
+        image: "jem/Jash Jain.jpg",
       },
       {
         name: "Raktim Baruah",
-        image: "jem/Raktim.jpeg",
+        image: "jem/Raktim.png",
       },
       {
         name: "Vaibhav Agarwal",
-        image: "jem/Vaibhav.jpeg",
+        image: "jem/Vaibhav_.jpg",
       },
       {
         name: "Hrangromawi Hmar",
-        image: "jem/Hrangromawi.jpeg",
+        image: "jem/Mawihmar_.jpg",
       },
       {
         name: "Anton Doley",
-        image: "jem/Anton.jpeg",
+        image: "jem/Anton Doley.jpg",
       },
       {
         name: "Mithinga Mushahary",
-        image: "jem/Mithinga.jpeg",
+        image: "jem/Mithinga.jpg",
       },
       {
         name: "Lakhyajit Mech",
-        image: "jem/LakhyajitMech.jpeg",
+        image: "jem/Lakhyajit.jpg",
       },
       {
         name: "Ngaworshin Shirak Pheirei",
-        image: "jem/Ngaworshin.jpeg",
+        image: "jem/Shin.jpg",
       },
       {
         name: "Shownok Dutta Choudhury",
-        image: "jem/Shownok.jpeg",
+        image: "jem/Shownok Dutta Choudhury.jpg",
       },
     ],
   },
