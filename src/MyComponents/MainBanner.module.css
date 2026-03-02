@@ -9,7 +9,7 @@
 	--gradient-color-2: var(--bright-pink);
 
 	width: calc(100 * var(--vw));
-	height: 95vh;
+	height: 100vh;
 	background: #111;
 	margin: 2rem 0;
 	translate: -2rem;

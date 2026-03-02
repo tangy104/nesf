@@ -86,6 +86,7 @@
     font-family: var(--main-body-font);
     border-radius: 12px;
     transition: all .3s ease;
+    /* align-items: center; */
 }
 .link p{
     font-size: 1.3rem;
@@ -123,6 +124,77 @@
 
 .mobileMenuHidden{
     display:none;
+}
+
+/* Dropdown Container */
+.dropdownContainer {
+  position: relative;
+}
+
+.link {
+  cursor: pointer;
+}
+
+/* Desktop Dropdown */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* min-width: 150px; */
+  z-index: 1000;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.dropdownItem {
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f5f5;
+}
+
+.currentBadge {
+  font-size: 0.5em;
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+/* Mobile Dropdown */
+.mobileDropdownContainer {
+  display: flex;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+.mobileDropdownItems {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 20px; */
+  font-size: 1.5rem;
+  cursor:pointer;
+}
+
+.mobileDropdownItem {
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mobileDropdownItem:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 1250px) {
