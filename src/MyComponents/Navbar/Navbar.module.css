@@ -77,6 +77,15 @@
 .title p{
     font-size:1.6vw;
 } */
+
+.hamburgerButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
 .link{
     text-decoration: none;
     color: black;
@@ -206,9 +215,7 @@
         flex-grow: 2;
     }
 
-    .title {
-        /* align-items: center; */
-    }
+    
 
     .title h2 {
         font-size: 1.2rem;

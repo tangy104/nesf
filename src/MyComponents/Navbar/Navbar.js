@@ -58,7 +58,7 @@ const AVAILABLE_YEARS = [
   // Add more years as needed
 ];
 
-const CURRENT_TENURE = "2025-26"; // Set your current tenure
+// const CURRENT_TENURE = "2025-26"; // Set your current tenure
 
 const Navbar = () => {
   const [showMenuItems, setShowMenuItems] = useState(false);
@@ -171,9 +171,13 @@ const Navbar = () => {
           <div></div>
         </div>
         <div className={styles.hamburgerMenu}>
-          <a href="#" onClick={() => setShowMenuItems(!showMenuItems)}>
+          <button
+            type="button"
+            className={styles.hamburgerButton}
+            onClick={() => setShowMenuItems(!showMenuItems)}
+          >
             <GiHamburgerMenu />
-          </a>
+          </button>
         </div>
         <div
           className={`${styles.mobileMenu} ${showMenuItems && styles.opened}`}

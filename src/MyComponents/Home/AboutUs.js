@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./AboutUs.module.css";
 import HighlightCard from "./HighlightCard";
 import Testimonials from "../Testimonials";
-import { sponsors } from "../../data/sponsors";
-import InfiniteMovingCards from "../InfiniteMovingCards";
+// import { sponsors } from "../../data/sponsors";
+// import InfiniteMovingCards from "../InfiniteMovingCards";
 import Tilt from "react-parallax-tilt";
-import PreviousSponsorsCarousal from "../PreviousSponsorsCarousal";
+// import PreviousSponsorsCarousal from "../PreviousSponsorsCarousal";
 
 const AboutUs = () => {
   // const societyDescription =

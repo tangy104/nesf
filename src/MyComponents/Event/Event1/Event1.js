@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 // import image from "../../../../public/Events/festival/festival1.jpg"
 
-import { events } from '../../../data/events';
+import { events } from "../../../data/events";
 
 const Event1 = (props) => {
   const handleClick = () => {
@@ -17,14 +17,17 @@ const Event1 = (props) => {
 
   // extract slug
   const location = useLocation();
-  const pathName = location.pathname.at(-1) === '/' ? location.pathname.slice(8, -1) : location.pathname.slice(8);
+  const pathName =
+    location.pathname.at(-1) === "/"
+      ? location.pathname.slice(8, -1)
+      : location.pathname.slice(8);
   console.log(pathName);
 
-  console.log(events)
+  console.log(events);
 
   // filter event
-  const event = events.find(event => event.slug === pathName);
-  console.log(event)
+  const event = events.find((event) => event.slug === pathName);
+  console.log(event);
 
   return (
     <div className={styles.container}>
@@ -55,7 +58,6 @@ const Event1 = (props) => {
             <p>{event.highlights[1]}</p>
             <p>{event.highlights[2]}</p>
           </div>
-
         </div>
 
         <div className={styles.photos}>
@@ -88,21 +90,18 @@ const Event1 = (props) => {
           <div className={styles.right}>
             <p className={styles.heading}>Other events </p>
             <div className={styles.links}>
-              {
-                events.map(event => {
-                  if (event.slug !== pathName) {
-                    return (
-                      <Link
-                        className={styles.others}
-                        onClick={handleClick}
-                        to={`/events/${event.slug}`}
-                      >
-                        {event.name}
-                      </Link>
-                    )
-                  }
-                })
-              }
+              {events
+                .filter((e) => e.slug !== pathName)
+                .map((e) => (
+                  <Link
+                    key={e.slug}
+                    className={styles.others}
+                    onClick={handleClick}
+                    to={`/events/${e.slug}`}
+                  >
+                    {e.name}
+                  </Link>
+                ))}
               {/* <Link
                 className={styles.others}
                 onClick={handleClick}
